@@ -1,22 +1,32 @@
-import logo from './logo.svg';
+import page_image from './tl.webp';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src = {page_image} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hi, Create an account first
         </p>
+        <div id='App-link'>
         <a
-          className="App-link"
+        className='App-Button'
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Sign-up
         </a>
+        <a
+        className='App-Button'
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Login
+        </a>
+        </div>
       </header>
     </div>
   );
